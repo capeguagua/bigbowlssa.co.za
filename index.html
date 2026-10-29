@@ -69,4 +69,67 @@ html,body{min-height:100%;}body{min-height:100svh;display:flex;flex-direction:co
 .site-main .follow{justify-content:flex-end;padding:12px 0!important;min-height:55px;border-top:1px solid var(--line)}
 .site-main .follow .followlinks{margin:0;gap:10px}
 @media(max-width:600px){.site-main .follow{padding:10px 0!important}.site-main .followlinks{display:flex;justify-content:center}}
-</style></head><body><header class="topbar"><div class="container topinner"><a aria-label="Big Bowls home" class="brand" href="index.html"><img alt="Big Bowls Contemporary Asian Cuisine" src="assets/big-bowls-logo.png"/></a><nav aria-label="Site navigation" class="navigation"><a aria-current="page" data-nav="home" href="index.html">Sushi Buffet</a><a data-nav="events" href="events.html">November Special</a><a data-nav="menu" href="menu.html">Menu &amp; Drinks</a><a class="gold" href="https://www.instagram.com/bigbowlssa/" rel="noopener noreferrer" target="_blank">Instagram ↗</a></nav></div></header><main class="site-main" id="top"><section class="hero hero-refined" id="buffet"><div class="hero-content"><div class="hero-inner"><p class="eyebrow hero-kicker">A little more to love · Sea Point</p><h1>Come hungry.<br/><em>Leave happy.</em></h1><div class="buffet-offer"><div class="buffet-offer-label">SUSHI<br/><strong>BUFFET</strong></div><div class="price">R259<span> / person</span></div></div><p class="hero-bonus"><span class="bonus-mark">NOVEMBER SPECIAL</span> Enjoy the R259 buffet and join our Wednesday Chinese Cocktail Night <strong>free with your voucher.</strong></p><div class="cta-row"><a class="btn" href="events.html">Explore November Special ↗</a><a class="hero-underlink" href="menu.html">See the menu <span aria-hidden="true">↗</span></a></div></div></div><div class="hero-visual"><img alt="Smiling Big Bowls team member presenting freshly prepared sushi" fetchpriority="high" src="assets/buffet-hero-v8.webp"/></div></section><div class="container follow"><div class="followlinks"><a class="btn" href="https://www.instagram.com/bigbowlssa/" rel="noopener noreferrer" target="_blank">Instagram ↗</a><a class="btn outline" href="https://www.tiktok.com/@bigbowlssa" rel="noopener noreferrer" target="_blank">TikTok ↗</a></div></div></main><footer class="footer"><div class="container footerinner"><div>© 2026 Big Bowls Contemporary Asian Cuisine</div><div>152 Main Rd, Sea Point, Cape Town, 8005 · <a href="https://www.google.com/maps/search/?api=1&amp;query=Big+Bowls+152+Main+Road+Sea+Point+Cape+Town" rel="noopener noreferrer" target="_blank">Map ↗</a> · <a href="https://wa.me/27731123456" rel="noopener noreferrer" target="_blank">WhatsApp: 073 112 3456 ↗</a></div></div></footer></body></html>
+</style><style>
+/* V14 — consistent editorial alignment across all three pages */
+:root{--page-gutter:clamp(26px,5vw,86px)}
+.hero-refined{grid-template-columns:50% 50%;min-height:0}
+.hero-refined .hero-content{
+  justify-content:flex-start;
+  align-items:center;
+  padding:clamp(34px,5vh,72px) clamp(36px,5vw,82px) clamp(34px,5vh,72px) var(--page-gutter);
+}
+.hero-refined .hero-inner{width:min(560px,100%);margin:0}
+.hero-refined .hero-kicker{margin:0 0 clamp(16px,2.8vh,28px);letter-spacing:.19em}
+.hero-refined h1{font-size:clamp(44px,5.5vw,82px);line-height:1.03;margin:0 0 clamp(22px,3vh,34px)}
+.hero-refined .buffet-offer{margin:0 0 clamp(18px,2.8vh,27px);padding:11px 0 11px 21px;gap:clamp(20px,3vw,43px)}
+.hero-refined .buffet-offer-label{line-height:1.65}
+.hero-refined .price{font-size:clamp(46px,4.8vw,71px)}
+.hero-refined .hero-bonus{max-width:460px;margin:0 0 clamp(19px,3vh,30px);line-height:1.7}
+.hero-refined .cta-row{margin:0;gap:clamp(18px,2.4vw,30px)}
+.hero-refined .cta-row .btn{padding:13px 19px;letter-spacing:.085em}
+.hero-refined .hero-visual{min-height:0;background:#211a17}
+.hero-refined .hero-visual>img{object-fit:cover;object-position:50% 50%;filter:none}
+.hero-refined .hero-visual:before{background:linear-gradient(90deg,#100d0c 0%,rgba(16,13,12,.35) 9%,transparent 23%)}
+.page-panel.event{padding:clamp(28px,4vh,60px) 0}
+.page-panel.event .eventgrid{
+  width:100%;max-width:none;margin:0;
+  padding:0 var(--page-gutter);
+  display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.06fr);
+  gap:clamp(35px,5vw,90px);align-items:center;
+}
+.page-panel.event .eventgrid>div:first-child{max-width:570px}
+.page-panel.event h2{font-size:clamp(43px,4.4vw,66px);line-height:1.09;margin:0 0 26px}
+.page-panel.event .eyebrow{margin:0 0 21px}
+.page-panel.event .highlight{font-size:clamp(19px,1.7vw,23px);line-height:1.48;margin-bottom:19px}
+.page-panel.event .details{margin:22px 0 22px}
+.page-panel.event .eventvisual{width:100%;max-height:unset;aspect-ratio:892/550}
+.page-panel.event .eventvisual img{width:100%;height:100%;object-fit:contain}
+@media(max-width:1100px){
+  .hero-refined h1{font-size:clamp(41px,5vw,68px)}
+  .hero-refined .hero-content{padding-right:28px}
+  .page-panel.event .eventgrid{gap:32px}
+}
+@media(max-width:849px){
+  .hero-refined .hero-content{padding:35px 30px}
+  .hero-refined .hero-visual{min-height:400px}
+  .page-panel.event .eventgrid{padding:0 30px}
+}
+@media(max-width:600px){
+  .hero-refined{display:flex;flex-direction:column-reverse}
+  .hero-refined .hero-visual{height:clamp(240px,56vw,350px);min-height:0;width:100%}
+  .hero-refined .hero-visual:before{background:linear-gradient(0deg,#100d0c 0%,transparent 28%)}
+  .hero-refined .hero-content{padding:26px 24px 34px}
+  .hero-refined .hero-kicker{margin-bottom:16px}
+  .hero-refined h1{font-size:clamp(43px,10vw,58px);margin-bottom:23px}
+  .hero-refined .buffet-offer{margin-bottom:20px;padding-left:15px;gap:19px}
+  .hero-refined .price{font-size:clamp(42px,11vw,59px)}
+  .hero-refined .hero-bonus{margin-bottom:22px}
+  .hero-refined .cta-row{gap:19px}
+  .hero-refined .cta-row .btn{padding:12px 16px}
+  .page-panel.event .eventgrid{display:flex;flex-direction:column-reverse;padding:0 24px;gap:29px}
+  .page-panel.event .eventgrid>div:first-child{width:100%}
+  .page-panel.event h2{font-size:clamp(38px,9vw,49px);margin-bottom:18px}
+  .page-panel.event .eyebrow{margin-bottom:14px}
+  .page-panel.event .eventvisual{aspect-ratio:892/550}
+}
+</style></head><body><header class="topbar"><div class="container topinner"><a aria-label="Big Bowls home" class="brand" href="index.html"><img alt="Big Bowls Contemporary Asian Cuisine" src="assets/big-bowls-logo.png"/></a><nav aria-label="Site navigation" class="navigation"><a aria-current="page" data-nav="home" href="index.html">Sushi Buffet</a><a data-nav="events" href="events.html">November Special</a><a data-nav="menu" href="menu.html">Menu &amp; Drinks</a><a class="gold" href="https://www.instagram.com/bigbowlssa/" rel="noopener noreferrer" target="_blank">Instagram ↗</a></nav></div></header><main class="site-main" id="top"><section class="hero hero-refined" id="buffet"><div class="hero-content"><div class="hero-inner"><p class="eyebrow hero-kicker">A little more to love · Sea Point</p><h1>Come hungry.<br/><em>Leave happy.</em></h1><div class="buffet-offer"><div class="buffet-offer-label">SUSHI<br/><strong>BUFFET</strong></div><div class="price">R259<span> / person</span></div></div><p class="hero-bonus"><span class="bonus-mark">NOVEMBER SPECIAL</span> Enjoy the R259 buffet and join our Wednesday Chinese Cocktail Night <strong>free with your voucher.</strong></p><div class="cta-row"><a class="btn" href="events.html">Explore November Special ↗</a><a class="hero-underlink" href="menu.html">See the menu <span aria-hidden="true">↗</span></a></div></div></div><div class="hero-visual"><img alt="Freshly prepared sushi assortment served at Big Bowls Sea Point" fetchpriority="high" src="assets/sushi-buffet-home-v14.webp"/></div></section><div class="container follow"><div class="followlinks"><a class="btn" href="https://www.instagram.com/bigbowlssa/" rel="noopener noreferrer" target="_blank">Instagram ↗</a><a class="btn outline" href="https://www.tiktok.com/@bigbowlssa" rel="noopener noreferrer" target="_blank">TikTok ↗</a></div></div></main><footer class="footer"><div class="container footerinner"><div>© 2026 Big Bowls Contemporary Asian Cuisine</div><div>152 Main Rd, Sea Point, Cape Town, 8005 · <a href="https://www.google.com/maps/search/?api=1&amp;query=Big+Bowls+152+Main+Road+Sea+Point+Cape+Town" rel="noopener noreferrer" target="_blank">Map ↗</a> · <a href="https://wa.me/27731123456" rel="noopener noreferrer" target="_blank">WhatsApp: 073 112 3456 ↗</a></div></div></footer></body></html>

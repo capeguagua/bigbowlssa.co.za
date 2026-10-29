@@ -1,3 +1,1 @@
-Big Bowls V11 – Food & Menu combined
-
-Upload all root files and the assets folder to your existing GitHub Pages repository. Replacing only index.html, events.html, menu.html, and food.html is sufficient if all the V10 assets are already present. The food.html file redirects visitors to menu.html. No DNS or GitHub Pages setting changes are necessary.
+V14: Refined editorial spacing and left-column alignment on Home and November Special, plus new sushi buffet homepage photograph. Upload all the contents of this folder to the root of the GitHub repository, retaining the assets folder.
