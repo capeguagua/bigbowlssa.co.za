@@ -1,7 +1,1 @@
-Big Bowls website — updated 29 October 2026
-
-Upload index.html, CNAME, favicon.png, favicon.ico and the entire assets folder to the ROOT of GitHub repository capeguagua/bigbowlssa.co.za. Do NOT upload the parent folder. Existing files of the same name must be replaced. Remove old unused photos at your discretion.
-
-Booking form: https://forms.gle/py72oznf6pped1Gf6
-Address: 152 Main Road, Sea Point, Cape Town
-Please confirm the WhatsApp number +27 73 112 3456 with the restaurant before publishing.
+Big Bowls V4 — Upload ALL extracted files to the ROOT of capeguagua/bigbowlssa.co.za (not the enclosing folder). Keep assets/ intact. In GitHub: Code > Add file > Upload files > Commit changes. Existing DNS and GitHub Pages settings do not need to change. Menu is a selection of transcribed printed items, not an exhaustive menu; verify prices with the restaurant before public use.
