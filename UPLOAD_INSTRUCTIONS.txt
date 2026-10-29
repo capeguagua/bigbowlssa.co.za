@@ -1,1 +1,3 @@
-V9 menu update: This package contains ALL PAGES. Only menu.html changed from V8. For an existing V8 installation, replace menu.html alone in the GitHub repository root. For a new install, upload all files and the assets folder to the root. GitHub Pages will redeploy automatically.
+Big Bowls V11 – Food & Menu combined
+
+Upload all root files and the assets folder to your existing GitHub Pages repository. Replacing only index.html, events.html, menu.html, and food.html is sufficient if all the V10 assets are already present. The food.html file redirects visitors to menu.html. No DNS or GitHub Pages setting changes are necessary.
