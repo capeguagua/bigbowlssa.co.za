@@ -1,1 +1,1 @@
-V14: Refined editorial spacing and left-column alignment on Home and November Special, plus new sushi buffet homepage photograph. Upload all the contents of this folder to the root of the GitHub repository, retaining the assets folder.
+V15: Three navigation tabs only; compact Instagram and TikTok buttons shared by the footer of all three pages. Upload index.html, events.html, and menu.html to the GitHub repository root, replacing existing versions. Other assets remain unchanged.
