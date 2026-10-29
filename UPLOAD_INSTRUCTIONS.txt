@@ -1,1 +1,1 @@
-Upload all files in this folder to the root of your GitHub repository, replacing the old files. This V5 update puts the smiling staff-with-sushi photo on the homepage hero and uses a complete cocktail-glasses image for the November Special section. Do not upload the outer folder itself.
+Big Bowls V6 — revised natural hero layout + staff-with-sushi homepage image. Upload all files and assets directly to GitHub repo root. This package supersedes V5.
