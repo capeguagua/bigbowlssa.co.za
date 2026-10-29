@@ -1,1 +1,1 @@
-V15: Three navigation tabs only; compact Instagram and TikTok buttons shared by the footer of all three pages. Upload index.html, events.html, and menu.html to the GitHub repository root, replacing existing versions. Other assets remain unchanged.
+V16: Only the shared footer has changed. For existing V15 sites, update index.html, events.html, and menu.html. Home, images, menu and other content unchanged.
